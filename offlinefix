@@ -7,19 +7,24 @@ connection = AWS::S3::Base.establish_connection!(
 )
 
 count = 0;
-bucket = AWS::S3::Bucket.find("/stylelist-assets/")
-bucket.each do |file|
-    begin
-      p count.to_s << ". checking " << file.key
-      if (!file.metadata['Cache-Control'] && file.key != '/')
-        p count.to_s << ". updating " << file.key
-        file.metadata['Cache-Control'] = 'max-age=86400'
-        file.save
-      else
-        p count.to_s << ". skipping " << file.key
-      end
-    rescue
-      next
+loop do
+    objects = AWS::S3::Bucket.objects("/stylelist-assets/", :marker=>marker, :max_keys=>1000)
+    break if objects.size == 0
+    marker = objects.last.key
+      
+    objects.each do |file|
+        begin
+          p count.to_s << ". checking " << file.key
+          if (!file.metadata['Cache-Control'] && file.key != '/')
+            p count.to_s << ". updating " << file.key
+            file.metadata['Cache-Control'] = 'max-age=86400'
+            file.save
+          else
+            p count.to_s << ". skipping " << file.key
+          end
+        rescue
+          next
+        end
+        count+=1
     end
-    count+=1
 end
