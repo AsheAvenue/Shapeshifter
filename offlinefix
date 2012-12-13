@@ -7,7 +7,7 @@ connection = AWS::S3::Base.establish_connection!(
 )
 
 count = 0;
-marker = '';
+marker = ARGV[0] ||= '';
 loop do
     objects = AWS::S3::Bucket.objects("/stylelist-assets/", :marker=>marker, :max_keys=>1000)
     break if objects.size == 0
