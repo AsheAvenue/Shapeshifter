@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'sinatra'
+require 'aws-s3'
 
 configure :production do
   # Configure stuff here you'll want to
