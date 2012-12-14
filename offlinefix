@@ -19,7 +19,7 @@ loop do
           if (!file.metadata['Cache-Control'] && file.key != '/')
             p count.to_s << ". updating " << file.key
             file.metadata['Cache-Control'] = 'max-age=86400'
-            grant = ACL::Grant.grant :public_read
+            grant = AWS::S3::ACL::Grant.grant :public_read
             file.acl.grants << grant
             file.save
             p count.to_s << ". saved " << file.key
@@ -27,6 +27,7 @@ loop do
             p count.to_s << ". skipping " << file.key
           end
         rescue
+          count+=1
           next
         end
         count+=1
