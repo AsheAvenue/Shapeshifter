@@ -21,8 +21,8 @@ loop do
             file.metadata['Cache-Control'] = 'max-age=86400'
             grant = ACL::Grant.grant :public_read
             file.acl.grants << grant
-            file.acl(file.acl)
             file.save
+            p count.to_s << ". saved " << file.key
           else
             p count.to_s << ". skipping " << file.key
           end
