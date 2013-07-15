@@ -20,7 +20,7 @@ SIZE_KEY                = "_vice_#{WIDTH}x#{HEIGHT}"
 
 # get the images
 images = Array.new
-image_list = File.open("image_list_test.txt").read
+image_list = File.open("image_list.txt").read
 image_list.each_line do |line|
   images << line.gsub(/\s+/, ' ').strip
 end

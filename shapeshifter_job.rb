@@ -161,6 +161,6 @@ while _loopflag
     log.debug("No message available in SQS")
   end
   log.debug("End of shapeshifter loop")
-sleep(1)  
+sleep(1.0/20.0)  
 end
 log.info("Shapeshifter process stopped gracefully")
