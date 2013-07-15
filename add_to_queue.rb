@@ -6,32 +6,32 @@ require 'logger'
 require 'open-uri'
 require 'RMagick'
 include Magick
-  
+
 # open the config file
 config = YAML::load(File.open(File.join(File.dirname(__FILE__), "config.yml")))
-  
+
 QUEUE_URL               = config['sqs_url']
 QUEUE_ACCESS_KEY_ID     = config['sqs_access_key_id']
 QUEUE_SECRET_ACCESS_KEY = config['sqs_secret_access_key']
 ACCOUNT                 = 'vice'
-WIDTH                   = 640
-HEIGHT                  = 360
+WIDTH                   = 644
+HEIGHT                  = 364
 SIZE_KEY                = "_vice_#{WIDTH}x#{HEIGHT}"
-  
+
 # get the images
 images = Array.new
-image_list = File.open("image_list.txt").read
+image_list = File.open("image_list_test.txt").read
 image_list.each_line do |line|
   images << line.gsub(/\s+/, ' ').strip
 end
-  
+
 Message = Struct.new(:account, :image, :width, :height, :size_key)
-  
+
 sqs = Fog::AWS::SQS.new({
   :aws_access_key_id        => QUEUE_ACCESS_KEY_ID,
   :aws_secret_access_key    => QUEUE_SECRET_ACCESS_KEY
 })
-  
+
 images.each do |image|
   message = Message.new(ACCOUNT, image, WIDTH, HEIGHT, SIZE_KEY)
   serialized_message = YAML::dump(message)
