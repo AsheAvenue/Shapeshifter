@@ -14,8 +14,8 @@ QUEUE_URL               = config['sqs_url']
 QUEUE_ACCESS_KEY_ID     = config['sqs_access_key_id']
 QUEUE_SECRET_ACCESS_KEY = config['sqs_secret_access_key']
 ACCOUNT                 = 'vice'
-WIDTH                   = 643
-HEIGHT                  = 363
+WIDTH                   = 644
+HEIGHT                  = 364
 SIZE_KEY                = "_vice_#{WIDTH}x#{HEIGHT}"
 
 # get the images
