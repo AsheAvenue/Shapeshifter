@@ -1,0 +1,1045 @@
+I, [2013-07-15T12:45:59.387862 #40154]  INFO -- : Encoder process started
+I, [2013-07-15T12:46:26.806187 #40154]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>1, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kW+OsyK4OQS+sQPmQe0iFlvtI/Lu7AMLVRistsXirUJT2QpctpBpTmWfZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TZYFv4JxAWNB1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:46:26.806368 #40154] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:46:56.808974 #40154]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>2, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kW+OsyK4OQS+sQPmQe0iFlvtI/Lu7AMLVRistsXirUJT2QpctpBpTmWfZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TZU7biR2ajMD1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:46:56.809133 #40154] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:46:57.810210 #40154]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T12:47:49.892152 #40209]  INFO -- : Shapeshifter process started
+I, [2013-07-15T12:47:52.227760 #40209]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>4, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kW+OsyK4OQS+HSg0KUx26ontI/Lu7AMLVbcioxMuqVB0i9plXBuKnrafZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TTJ7qykxcrJH1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:47:52.227945 #40209] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:48:23.047140 #40209]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>5, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kW+OsyK4OQS+HSg0KUx26ontI/Lu7AMLVbcioxMuqVB0i9plXBuKnrafZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TaPYKztcUdVb1z9OdHsr1+4=", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:48:23.047295 #40209] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:48:29.880471 #40209]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T12:52:58.467980 #40414]  INFO -- : Shapeshifter process started
+I, [2013-07-15T12:52:58.619740 #40414]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>6, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kW+OsyK4OQS+HSg0KUx26ontI/Lu7AMLVbcioxMuqVB0i9plXBuKnrafZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TfF6ZGnRah2K1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:52:58.619937 #40414] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:53:13.561340 #40414]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T12:53:16.070750 #40418]  INFO -- : Shapeshifter process started
+I, [2013-07-15T12:53:30.846204 #40418]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>7, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kWP3fB3uAOneT7YL3+eiWyqwEgFbdewVvdls4964J+ms47EnMccDWyufZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TWjizmFbvnys1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:53:30.846401 #40418] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:53:36.440023 #40418]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:53:36 -0400, "ApproximateReceiveCount"=>1, "SentTimestamp"=>2013-07-15 12:53:35 -0400}, "Body"=>"vice", "MD5OfBody"=>"03f753c08ba5ff2bd7d2ee230b4683b1", "ReceiptHandle"=>"MgTT3vrU9PXezrcqb08+UGP3fB3uAOnehtIhvUiy2z+iZDcy72SLW6rDxkEB/1n+TsV63b2GTsWAhQJCZAY7Nhi+hX506zhGB7JySd9J8bl0bpadhcZFlqYmTdFJRd6F0bx2YmL99k6+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP7bAL/OiZKRHdIQWOReads2mIh1ER1tBD3fvS913KDGY6j/XJ8C9VbrQ002ju210IjG8kWUGH4wcUyvoMMZemR51z9OdHsr1+4=", "MessageId"=>"0834627e-df25-483e-84a7-2fab15958833"}
+E, [2013-07-15T12:53:36.619437 #40418] ERROR -- : An exception was thrown while parsing SQS message: uninitialized constant SCRATCHDIR
+I, [2013-07-15T12:54:01.447727 #40418]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>8, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kWP3fB3uAOneT7YL3+eiWyqwEgFbdewVvdls4964J+ms47EnMccDWyufZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TdP12x3eDaHB1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:54:01.447885 #40418] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:54:07.157358 #40418]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:53:36 -0400, "ApproximateReceiveCount"=>2, "SentTimestamp"=>2013-07-15 12:53:35 -0400}, "Body"=>"vice", "MD5OfBody"=>"03f753c08ba5ff2bd7d2ee230b4683b1", "ReceiptHandle"=>"MgTT3vrU9PXezrcqb08+UGP3fB3uAOnehtIhvUiy2z+iZDcy72SLW6rDxkEB/1n+TsV63b2GTsWAhQJCZAY7Nhi+hX506zhGB7JySd9J8bl0bpadhcZFlqYmTdFJRd6F0bx2YmL99k6+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP7bAL/OiZKRHdIQWOReads2mIh1ER1tBD3fvS913KDGY6j/XJ8C9VbrQ002ju210IjG8kWUGH4wcdx6B1RoHD4s1z9OdHsr1+4=", "MessageId"=>"0834627e-df25-483e-84a7-2fab15958833"}
+E, [2013-07-15T12:54:07.157944 #40418] ERROR -- : An exception was thrown while parsing SQS message: uninitialized constant SCRATCHDIR
+I, [2013-07-15T12:54:26.835630 #40418]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T12:54:29.984837 #40467]  INFO -- : Shapeshifter process started
+I, [2013-07-15T12:54:32.340218 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>9, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kWP3fB3uAOneT7YL3+eiWyqwEgFbdewVvdls4964J+ms47EnMccDWyufZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TeZnawrQhUgi1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:54:32.340416 #40467] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:54:37.947036 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:53:36 -0400, "ApproximateReceiveCount"=>3, "SentTimestamp"=>2013-07-15 12:53:35 -0400}, "Body"=>"vice", "MD5OfBody"=>"03f753c08ba5ff2bd7d2ee230b4683b1", "ReceiptHandle"=>"MgTT3vrU9PXezrcqb08+UGP3fB3uAOnehtIhvUiy2z+iZDcy72SLW6rDxkEB/1n+TsV63b2GTsWAhQJCZAY7Nhi+hX506zhGB7JySd9J8bl0bpadhcZFlqYmTdFJRd6F0bx2YmL99k6+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP7bAL/OiZKRHdIQWOReads2mIh1ER1tBD3fvS913KDGY6j/XJ8C9VbrQ002ju210IjG8kWUGH4wcaBJ9SMzEWQz1z9OdHsr1+4=", "MessageId"=>"0834627e-df25-483e-84a7-2fab15958833"}
+I, [2013-07-15T12:55:04.331507 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>10, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kWP3fB3uAOnefDCrojfCqYawEgFbdewVvetLwJnHrO1lbBL06qzd/0WfZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TfX04R197eqK1z9OdHsr1+4=", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:55:04.331690 #40467] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:55:09.904459 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:53:36 -0400, "ApproximateReceiveCount"=>4, "SentTimestamp"=>2013-07-15 12:53:35 -0400}, "Body"=>"vice", "MD5OfBody"=>"03f753c08ba5ff2bd7d2ee230b4683b1", "ReceiptHandle"=>"MgTT3vrU9PXezrcqb08+UGP3fB3uAOneeJlnnOuJNbxXhuOyvT5TcBZ5wD+b2nwPhKNiQrxPe5eAhQJCZAY7Nhi+hX506zhGB7JySd9J8bl0bpadhcZFlqYmTdFJRd6F0bx2YmL99k6+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP7bAL/OiZKRHdIQWOReads2mIh1ER1tBD3fvS913KDGY6j/XJ8C9VbrQ002ju210IjG8kWUGH4wcWTjDQrGUrnA1z9OdHsr1+4=", "MessageId"=>"0834627e-df25-483e-84a7-2fab15958833"}
+I, [2013-07-15T12:55:34.853347 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>11, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kWP3fB3uAOnefDCrojfCqYawEgFbdewVvetLwJnHrO1lbBL06qzd/0WfZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TVLXODtBHdwP1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:55:34.853520 #40467] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:55:40.627607 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:53:36 -0400, "ApproximateReceiveCount"=>5, "SentTimestamp"=>2013-07-15 12:53:35 -0400}, "Body"=>"vice", "MD5OfBody"=>"03f753c08ba5ff2bd7d2ee230b4683b1", "ReceiptHandle"=>"MgTT3vrU9PXezrcqb08+UGP3fB3uAOneeJlnnOuJNbxXhuOyvT5TcBZ5wD+b2nwPhKNiQrxPe5eAhQJCZAY7Nhi+hX506zhGB7JySd9J8bl0bpadhcZFlqYmTdFJRd6F0bx2YmL99k6+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP7bAL/OiZKRHdIQWOReads2mIh1ER1tBD3fvS913KDGY6j/XJ8C9VbrQ002ju210IjG8kWUGH4wcRQ4DCHHDXV21z9OdHsr1+4=", "MessageId"=>"0834627e-df25-483e-84a7-2fab15958833"}
+I, [2013-07-15T12:56:05.731285 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>12, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kWP3fB3uAOnefDCrojfCqYawEgFbdewVvetLwJnHrO1lbBL06qzd/0WfZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TXJoHS7Ko/mp1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:56:05.731438 #40467] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:56:11.402216 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:53:36 -0400, "ApproximateReceiveCount"=>6, "SentTimestamp"=>2013-07-15 12:53:35 -0400}, "Body"=>"vice", "ReceiptHandle"=>"MgTT3vrU9PXezrcqb08+UGP3fB3uAOneeJlnnOuJNbxXhuOyvT5TcBZ5wD+b2nwPhKNiQrxPe5eAhQJCZAY7Nhi+hX506zhGB7JySd9J8bl0bpadhcZFlqYmTdFJRd6F0bx2YmL99k6+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP7bAL/OiZKRHdIQWOReads2mIh1ER1tBD3fvS913KDGY6j/XJ8C9VbrQ002ju210IjG8kWUGH4wcSNVYVO168GX1z9OdHsr1+4=", "MD5OfBody"=>"03f753c08ba5ff2bd7d2ee230b4683b1", "MessageId"=>"0834627e-df25-483e-84a7-2fab15958833"}
+I, [2013-07-15T12:56:37.204597 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>13, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kWP3fB3uAOneML/j0Fm7Ab6NA+Xy4GYM4RpVHizrPsQITuyf+6keFkufZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TRGvOiV6Qjeb1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:56:37.204744 #40467] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:56:43.648524 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:53:36 -0400, "ApproximateReceiveCount"=>7, "SentTimestamp"=>2013-07-15 12:53:35 -0400}, "Body"=>"vice", "MD5OfBody"=>"03f753c08ba5ff2bd7d2ee230b4683b1", "ReceiptHandle"=>"MgTT3vrU9PXezrcqb08+UGP3fB3uAOneDSRG47ZND+hXhuOyvT5TcI6Lt5eAtq6HE0NGrQnCwwqAhQJCZAY7Nhi+hX506zhGB7JySd9J8bl0bpadhcZFlqYmTdFJRd6F0bx2YmL99k6+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP7bAL/OiZKRHdIQWOReads2mIh1ER1tBD3fvS913KDGY6j/XJ8C9VbrQ002ju210IjG8kWUGH4wcXym1cnFIblB1z9OdHsr1+4=", "MessageId"=>"0834627e-df25-483e-84a7-2fab15958833"}
+I, [2013-07-15T12:57:07.236933 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>14, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kWP3fB3uAOneML/j0Fm7Ab6NA+Xy4GYM4RpVHizrPsQITuyf+6keFkufZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TXEXJmHlq3mT1z9OdHsr1+4=", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:57:07.237104 #40467] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:57:14.138893 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:53:36 -0400, "ApproximateReceiveCount"=>8, "SentTimestamp"=>2013-07-15 12:53:35 -0400}, "Body"=>"vice", "MD5OfBody"=>"03f753c08ba5ff2bd7d2ee230b4683b1", "ReceiptHandle"=>"MgTT3vrU9PXezrcqb08+UGP3fB3uAOneDSRG47ZND+hXhuOyvT5TcI6Lt5eAtq6HE0NGrQnCwwqAhQJCZAY7Nhi+hX506zhGB7JySd9J8bl0bpadhcZFlqYmTdFJRd6F0bx2YmL99k6+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP7bAL/OiZKRHdIQWOReads2mIh1ER1tBD3fvS913KDGY6j/XJ8C9VbrQ002ju210IjG8kWUGH4wcYbS6waT9vOE1z9OdHsr1+4=", "MessageId"=>"0834627e-df25-483e-84a7-2fab15958833"}
+I, [2013-07-15T12:57:37.489270 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:46:26 -0400, "ApproximateReceiveCount"=>15, "SentTimestamp"=>2013-07-15 12:46:26 -0400}, "Body"=>"hello", "MD5OfBody"=>"5d41402abc4b2a76b9719d911017c592", "ReceiptHandle"=>"MgTT3vrU9PWspQYl53w8kWP3fB3uAOneML/j0Fm7Ab6NA+Xy4GYM4RpVHizrPsQITuyf+6keFkufZ5a8HamWrB6ILxs2/JGbHAZlyzCkpC+QHVMUwBdy+STRMp3pskkDexCHN/+O8HK+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP6DYSkhxWJFGa5nsm5/06PjDmXnB7YbPkES90WkWeFmApY8DfWGtaZZIGorgeNn6p0waUO4gC19TUOeq6sWG8ZT1z9OdHsr1+4=", "MessageId"=>"b78ca084-6aae-4b92-b05d-986a44272d19"}
+E, [2013-07-15T12:57:37.489423 #40467] ERROR -- : An exception was thrown while parsing SQS message: undefined method `[]' for nil:NilClass
+I, [2013-07-15T12:57:44.308475 #40467]  INFO -- : Message received from SQS: {"Attributes"=>{"SenderId"=>"AIDAJIXYUR7ACJWLPDZCK", "ApproximateFirstReceiveTimestamp"=>2013-07-15 12:53:36 -0400, "ApproximateReceiveCount"=>9, "SentTimestamp"=>2013-07-15 12:53:35 -0400}, "Body"=>"vice", "ReceiptHandle"=>"MgTT3vrU9PXezrcqb08+UGP3fB3uAOneDSRG47ZND+hXhuOyvT5TcI6Lt5eAtq6HE0NGrQnCwwqAhQJCZAY7Nhi+hX506zhGB7JySd9J8bl0bpadhcZFlqYmTdFJRd6F0bx2YmL99k6+6Cbgznl7k0+o2GlP63eemHzyuGHJ2TLyMFbtA0PaFSqr9aWxNh1kWPhbfWrNXP7bAL/OiZKRHdIQWOReads2mIh1ER1tBD3fvS913KDGY6j/XJ8C9VbrQ002ju210IjG8kWUGH4wcQowNEZvawol1z9OdHsr1+4=", "MD5OfBody"=>"03f753c08ba5ff2bd7d2ee230b4683b1", "MessageId"=>"0834627e-df25-483e-84a7-2fab15958833"}
+I, [2013-07-15T12:58:02.349781 #40467]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T12:59:29.175185 #40568]  INFO -- : Shapeshifter process started
+I, [2013-07-15T12:59:48.660543 #40568]  INFO -- : Message received from SQS
+I, [2013-07-15T12:59:48.833823 #40568]  INFO -- : Handle: MgTT3vrU9PUXcwBN9sqqmcOv2Z/wazEwGORBlXV7Tnii66R7fZX0cM+FzUbW7xNxrWeWNpZwblf4ZIX6WXGoqIt4B0RaP6gAybW5Qu/ZxQl6Fbb38TDdXFIHlQtx94JBLINJloQ7MgFJlCtQ+gVwDncsxKYW0gPG0n3Sp7aOemNFH5BHTMnckHGNC8hUoZ1k+n2/iKLuFCSfuxrMu6E+Bv7WFLO94k3TiCZNYJSz/bofaIiDHwug03B0RlLBDz9VPaP/Cj27jF2xQ5O5Zw00VMn/FAMXIxtl1z9OdHsr1+4=
+E, [2013-07-15T12:59:48.833952 #40568] ERROR -- : An exception was thrown while uploading files into S3: undefined local variable or method `directory' for main:Object
+E, [2013-07-15T12:59:48.834043 #40568] ERROR -- : An exception was thrown while deleting local scratch files: undefined local variable or method `localfile' for main:Object
+I, [2013-07-15T13:00:05.895364 #40568]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:29:15.700122 #41010]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:42:37.585851 #41010]  INFO -- : Message received from SQS
+I, [2013-07-15T13:42:37.585987 #41010]  INFO -- : Creating S3 connection
+E, [2013-07-15T13:42:38.367462 #41010] ERROR -- : An exception was thrown while removing the message from SQS: undefined local variable or method `url' for main:Object
+I, [2013-07-15T13:44:30.933469 #41010]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:44:33.673753 #41192]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:44:59.357125 #41192]  INFO -- : Message received from SQS
+I, [2013-07-15T13:44:59.357247 #41192]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:44:59.998227 #41192]  INFO -- : Removed message from SQS
+I, [2013-07-15T13:45:52.747873 #41192]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:46:33.655289 #41250]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:46:39.439358 #41250]  INFO -- : Message received from SQS
+I, [2013-07-15T13:46:39.439474 #41250]  INFO -- : Creating S3 connection
+E, [2013-07-15T13:46:40.016135 #41250] ERROR -- : Couldn't find original image
+I, [2013-07-15T13:47:09.468895 #41250]  INFO -- : Message received from SQS
+I, [2013-07-15T13:47:09.469007 #41250]  INFO -- : Creating S3 connection
+E, [2013-07-15T13:47:09.610804 #41250] ERROR -- : Couldn't find original image
+I, [2013-07-15T13:47:10.612006 #41250]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:47:14.427780 #41271]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:47:39.814584 #41271]  INFO -- : Message received from SQS
+I, [2013-07-15T13:47:39.814709 #41271]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:47:40.247573 #41271]  INFO -- : Checking S3 for existing base image: /content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+E, [2013-07-15T13:47:40.358547 #41271] ERROR -- : Couldn't find original image
+I, [2013-07-15T13:47:50.547702 #41271]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:47:53.015010 #41291]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:48:11.374466 #41291]  INFO -- : Message received from SQS
+I, [2013-07-15T13:48:11.374577 #41291]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:48:11.792006 #41291]  INFO -- : Checking S3 for existing base image: /content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+E, [2013-07-15T13:48:11.915019 #41291] ERROR -- : Couldn't find original image
+I, [2013-07-15T13:48:11.990050 #41291]  INFO -- : Removed message from SQS
+I, [2013-07-15T13:49:03.887163 #41291]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:49:06.517217 #41349]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:49:43.436817 #41349]  INFO -- : Message received from SQS
+I, [2013-07-15T13:49:43.436936 #41349]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:49:43.890758 #41349]  INFO -- : Bucket: #<AWS::S3::Bucket:0x007fa141a95940>
+I, [2013-07-15T13:49:43.890839 #41349]  INFO -- : Checking S3 for existing base image: /content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+E, [2013-07-15T13:49:44.001808 #41349] ERROR -- : Couldn't find original image
+I, [2013-07-15T13:49:44.078471 #41349]  INFO -- : Removed message from SQS
+I, [2013-07-15T13:49:58.011172 #41349]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:50:02.265503 #41377]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:50:05.750611 #41377]  INFO -- : Message received from SQS
+I, [2013-07-15T13:50:05.750733 #41377]  INFO -- : Creating S3 connection
+E, [2013-07-15T13:50:06.131910 #41377] ERROR -- : Error: undefined method `key' for #<AWS::S3::Bucket:vicecom-assets>
+I, [2013-07-15T13:50:35.910812 #41377]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:50:38.222773 #41401]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:50:39.703464 #41401]  INFO -- : Message received from SQS
+I, [2013-07-15T13:50:39.703589 #41401]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:50:40.091830 #41401]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:50:40.091926 #41401]  INFO -- : Checking S3 for existing base image: /content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+E, [2013-07-15T13:50:40.317898 #41401] ERROR -- : Couldn't find original image
+I, [2013-07-15T13:50:40.640913 #41401]  INFO -- : Removed message from SQS
+I, [2013-07-15T13:51:02.503588 #41401]  INFO -- : Message received from SQS
+I, [2013-07-15T13:51:02.503691 #41401]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:51:02.504249 #41401]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:51:02.504290 #41401]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:51:02.598967 #41401]  INFO -- : Existing base image found
+E, [2013-07-15T13:51:02.599129 #41401] ERROR -- : Error: undefined method `[]=' for 80:Fixnum
+I, [2013-07-15T13:51:33.495330 #41401]  INFO -- : Message received from SQS
+I, [2013-07-15T13:51:33.495446 #41401]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:51:33.496177 #41401]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:51:33.496246 #41401]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:51:33.583584 #41401]  INFO -- : Existing base image found
+E, [2013-07-15T13:51:33.583749 #41401] ERROR -- : Error: undefined method `[]=' for 80:Fixnum
+I, [2013-07-15T13:52:03.952392 #41401]  INFO -- : Message received from SQS
+I, [2013-07-15T13:52:03.952520 #41401]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:52:03.953196 #41401]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:52:03.953268 #41401]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:52:04.390784 #41401]  INFO -- : Existing base image found
+E, [2013-07-15T13:52:04.390944 #41401] ERROR -- : Error: undefined method `[]=' for 80:Fixnum
+I, [2013-07-15T13:52:05.392058 #41401]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:52:07.991858 #41427]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:52:35.511322 #41427]  INFO -- : Message received from SQS
+I, [2013-07-15T13:52:35.511423 #41427]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:52:35.881012 #41427]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:52:35.881096 #41427]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:52:36.002487 #41427]  INFO -- : Existing base image found
+E, [2013-07-15T13:52:36.002633 #41427] ERROR -- : Error: undefined local variable or method `new_image' for main:Object
+I, [2013-07-15T13:53:06.270063 #41427]  INFO -- : Message received from SQS
+I, [2013-07-15T13:53:06.270155 #41427]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:53:06.270780 #41427]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:53:06.270830 #41427]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:53:06.698050 #41427]  INFO -- : Existing base image found
+E, [2013-07-15T13:53:06.698242 #41427] ERROR -- : Error: undefined local variable or method `new_image' for main:Object
+I, [2013-07-15T13:53:32.708232 #41427]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:53:35.473640 #41472]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:53:36.768269 #41472]  INFO -- : Message received from SQS
+I, [2013-07-15T13:53:36.768376 #41472]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:53:37.156610 #41472]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:53:37.156693 #41472]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:53:37.307382 #41472]  INFO -- : Existing base image found
+I, [2013-07-15T13:53:37.330583 #41472]  INFO -- : New image size already exists
+I, [2013-07-15T13:53:37.406160 #41472]  INFO -- : Removed message from SQS
+I, [2013-07-15T13:53:52.062950 #41472]  INFO -- : Message received from SQS
+I, [2013-07-15T13:53:52.063061 #41472]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:53:52.063681 #41472]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:53:52.063730 #41472]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:53:52.167069 #41472]  INFO -- : Existing base image found
+I, [2013-07-15T13:53:52.233595 #41472]  INFO -- : Creating new image
+E, [2013-07-15T13:53:52.269334 #41472] ERROR -- : Error: No Such Key
+I, [2013-07-15T13:54:22.164944 #41472]  INFO -- : Message received from SQS
+I, [2013-07-15T13:54:22.165050 #41472]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:54:22.165807 #41472]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:54:22.165878 #41472]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:54:22.599364 #41472]  INFO -- : Existing base image found
+I, [2013-07-15T13:54:22.620478 #41472]  INFO -- : Creating new image
+E, [2013-07-15T13:54:22.642328 #41472] ERROR -- : Error: No Such Key
+I, [2013-07-15T13:54:52.370722 #41472]  INFO -- : Message received from SQS
+I, [2013-07-15T13:54:52.370858 #41472]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:54:52.371611 #41472]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:54:52.371681 #41472]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:54:52.480959 #41472]  INFO -- : Existing base image found
+I, [2013-07-15T13:54:52.509756 #41472]  INFO -- : Creating new image
+E, [2013-07-15T13:54:52.542735 #41472] ERROR -- : Error: No Such Key
+I, [2013-07-15T13:55:23.841921 #41472]  INFO -- : Message received from SQS
+I, [2013-07-15T13:55:23.842033 #41472]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:55:23.842795 #41472]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:55:23.842869 #41472]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:55:23.946048 #41472]  INFO -- : Existing base image found
+I, [2013-07-15T13:55:23.978603 #41472]  INFO -- : Creating new image
+E, [2013-07-15T13:55:24.006925 #41472] ERROR -- : Error: No Such Key
+I, [2013-07-15T13:55:32.938408 #41472]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:55:37.646158 #41531]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:55:54.756932 #41531]  INFO -- : Message received from SQS
+I, [2013-07-15T13:55:54.757066 #41531]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:55:55.167897 #41531]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:55:55.167979 #41531]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:55:55.279245 #41531]  INFO -- : Existing base image found
+I, [2013-07-15T13:55:55.303545 #41531]  INFO -- : Creating new image
+I, [2013-07-15T13:55:55.303647 #41531]  INFO -- : Starting by downloading base image
+I, [2013-07-15T13:55:55.397090 #41531]  INFO -- : ImageMagicking
+E, [2013-07-15T13:55:55.419617 #41531] ERROR -- : Error: undefined local variable or method `size' for main:Object
+I, [2013-07-15T13:56:25.205421 #41531]  INFO -- : Message received from SQS
+I, [2013-07-15T13:56:25.205527 #41531]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:56:25.206217 #41531]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:56:25.206286 #41531]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:56:25.645704 #41531]  INFO -- : Existing base image found
+I, [2013-07-15T13:56:25.665899 #41531]  INFO -- : Creating new image
+I, [2013-07-15T13:56:25.665983 #41531]  INFO -- : Starting by downloading base image
+I, [2013-07-15T13:56:25.763967 #41531]  INFO -- : ImageMagicking
+E, [2013-07-15T13:56:25.772821 #41531] ERROR -- : Error: undefined local variable or method `size' for main:Object
+I, [2013-07-15T13:56:33.580225 #41531]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:56:36.197351 #41561]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:56:56.647702 #41561]  INFO -- : Message received from SQS
+I, [2013-07-15T13:56:56.647809 #41561]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:56:57.053340 #41561]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:56:57.053421 #41561]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:56:57.562304 #41561]  INFO -- : Existing base image found
+I, [2013-07-15T13:56:57.593969 #41561]  INFO -- : Creating new image
+I, [2013-07-15T13:56:57.594073 #41561]  INFO -- : Starting by downloading base image
+I, [2013-07-15T13:56:57.776546 #41561]  INFO -- : ImageMagicking
+E, [2013-07-15T13:56:57.784972 #41561] ERROR -- : Error: undefined method `/' for "641":String
+I, [2013-07-15T13:57:26.901973 #41561]  INFO -- : Message received from SQS
+I, [2013-07-15T13:57:26.902055 #41561]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:57:26.902627 #41561]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:57:26.902673 #41561]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:57:26.987116 #41561]  INFO -- : Existing base image found
+I, [2013-07-15T13:57:27.076262 #41561]  INFO -- : Creating new image
+I, [2013-07-15T13:57:27.076344 #41561]  INFO -- : Starting by downloading base image
+I, [2013-07-15T13:57:27.263035 #41561]  INFO -- : ImageMagicking
+E, [2013-07-15T13:57:27.271563 #41561] ERROR -- : Error: undefined method `/' for "641":String
+I, [2013-07-15T13:57:46.700583 #41561]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T13:57:49.077138 #41596]  INFO -- : Shapeshifter process started
+I, [2013-07-15T13:57:57.225592 #41596]  INFO -- : Message received from SQS
+I, [2013-07-15T13:57:57.225714 #41596]  INFO -- : Creating S3 connection
+I, [2013-07-15T13:57:57.613704 #41596]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T13:57:57.613784 #41596]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T13:57:57.744853 #41596]  INFO -- : Existing base image found
+I, [2013-07-15T13:57:57.787186 #41596]  INFO -- : Creating new image
+I, [2013-07-15T13:57:57.787285 #41596]  INFO -- : Starting by downloading base image
+I, [2013-07-15T13:57:57.951832 #41596]  INFO -- : ImageMagicking
+I, [2013-07-15T13:57:57.992762 #41596]  INFO -- : Uploading new image to S3
+I, [2013-07-15T13:57:58.260889 #41596]  INFO -- : Deleting local files
+I, [2013-07-15T13:57:58.261121 #41596]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T13:57:58.298536 #41596]  INFO -- : All good
+I, [2013-07-15T13:57:58.369488 #41596]  INFO -- : Removed message from SQS
+I, [2013-07-15T14:13:00.045718 #41596]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T14:13:02.933366 #41813]  INFO -- : Shapeshifter process started
+I, [2013-07-15T14:13:16.826769 #41813]  INFO -- : Message received from SQS
+I, [2013-07-15T14:13:16.826891 #41813]  INFO -- : Creating S3 connection
+I, [2013-07-15T14:13:17.228467 #41813]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T14:13:17.228539 #41813]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T14:13:17.338867 #41813]  INFO -- : Existing base image found
+I, [2013-07-15T14:13:17.380877 #41813]  INFO -- : Creating new image
+I, [2013-07-15T14:13:17.380956 #41813]  INFO -- : Starting by downloading base image
+I, [2013-07-15T14:13:17.491038 #41813]  INFO -- : ImageMagicking
+I, [2013-07-15T14:13:17.530266 #41813]  INFO -- : Uploading new image to S3
+I, [2013-07-15T14:13:17.588502 #41813]  INFO -- : Deleting local files
+I, [2013-07-15T14:13:17.588773 #41813]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T14:13:17.613381 #41813]  INFO -- : All good
+I, [2013-07-15T14:13:17.685372 #41813]  INFO -- : Removed message from SQS
+I, [2013-07-15T14:16:12.601723 #41813]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T14:16:31.724314 #41887]  INFO -- : Shapeshifter process started
+I, [2013-07-15T14:16:35.544136 #41887]  INFO -- : Message received from SQS
+I, [2013-07-15T14:16:35.544240 #41887]  INFO -- : Creating S3 connection
+I, [2013-07-15T14:16:35.937525 #41887]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T14:16:35.937609 #41887]  INFO -- : Checking S3 for existing base image: content-images/article/10-gruende-fuers-rauchen/eb67770ef8c063d506f4fc177926930a.jpg
+I, [2013-07-15T14:16:36.077986 #41887]  INFO -- : Existing base image found
+I, [2013-07-15T14:16:36.099196 #41887]  INFO -- : Creating new image
+I, [2013-07-15T14:16:36.099296 #41887]  INFO -- : Starting by downloading base image
+I, [2013-07-15T14:16:36.223177 #41887]  INFO -- : ImageMagicking
+I, [2013-07-15T14:16:36.261813 #41887]  INFO -- : Uploading new image to S3
+I, [2013-07-15T14:16:36.308743 #41887]  INFO -- : Deleting local files
+I, [2013-07-15T14:16:36.308957 #41887]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T14:16:36.327516 #41887]  INFO -- : All good
+I, [2013-07-15T14:16:36.405424 #41887]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:18:36.514940 #41887]  INFO -- : Message received from SQS
+I, [2013-07-15T15:18:36.516882 #41887]  INFO -- : Creating S3 connection
+E, [2013-07-15T15:18:36.517107 #41887] ERROR -- : Error: undefined method `[]' for nil:NilClass
+I, [2013-07-15T15:19:07.103684 #41887]  INFO -- : Message received from SQS
+I, [2013-07-15T15:19:07.103864 #41887]  INFO -- : Creating S3 connection
+E, [2013-07-15T15:19:07.104027 #41887] ERROR -- : Error: undefined method `[]' for nil:NilClass
+I, [2013-07-15T15:19:08.104857 #41887]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:19:10.983976 #42345]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:19:37.147527 #42345]  INFO -- : Message received from SQS
+I, [2013-07-15T15:19:37.147683 #42345]  INFO -- : Creating S3 connection
+E, [2013-07-15T15:19:37.147846 #42345] ERROR -- : Error: undefined method `[]' for nil:NilClass
+I, [2013-07-15T15:20:08.281923 #42345]  INFO -- : Message received from SQS
+I, [2013-07-15T15:20:08.283534 #42345]  INFO -- : Creating S3 connection
+E, [2013-07-15T15:20:08.283720 #42345] ERROR -- : Error: undefined method `[]' for nil:NilClass
+I, [2013-07-15T15:20:31.045255 #42345]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:20:34.729702 #42377]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:20:38.296559 #42377]  INFO -- : Message received from SQS
+I, [2013-07-15T15:20:38.296674 #42377]  INFO -- : Creating S3 connection
+E, [2013-07-15T15:20:38.296814 #42377] ERROR -- : Error: undefined method `[]' for nil:NilClass
+I, [2013-07-15T15:21:08.444796 #42377]  INFO -- : Message received from SQS
+I, [2013-07-15T15:21:08.444951 #42377]  INFO -- : Creating S3 connection
+E, [2013-07-15T15:21:08.445103 #42377] ERROR -- : Error: undefined method `[]' for nil:NilClass
+I, [2013-07-15T15:21:12.847275 #42377]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:23:09.085253 #42490]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:23:10.396165 #42490]  INFO -- : Message received from SQS
+I, [2013-07-15T15:23:10.396267 #42490]  INFO -- : Creating S3 connection
+E, [2013-07-15T15:23:10.396376 #42490] ERROR -- : Error: undefined method `[]' for nil:NilClass
+I, [2013-07-15T15:23:41.286008 #42490]  INFO -- : Message received from SQS
+I, [2013-07-15T15:23:41.286137 #42490]  INFO -- : Creating S3 connection
+E, [2013-07-15T15:23:41.286271 #42490] ERROR -- : Error: undefined method `[]' for nil:NilClass
+I, [2013-07-15T15:24:07.514775 #42490]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:24:10.348268 #42517]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:24:11.605622 #42517]  INFO -- : Message received from SQS
+E, [2013-07-15T15:24:11.605841 #42517] ERROR -- : Error: undefined method `account' for #<String:0x007faa3c5d28f0>
+I, [2013-07-15T15:24:27.249676 #42517]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:24:29.770171 #42556]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:24:43.590921 #42556]  INFO -- : Message received from SQS
+E, [2013-07-15T15:24:43.591107 #42556] ERROR -- : Error: can't convert Symbol into Integer
+I, [2013-07-15T15:25:14.046979 #42556]  INFO -- : Message received from SQS
+E, [2013-07-15T15:25:14.047139 #42556] ERROR -- : Error: can't convert Symbol into Integer
+I, [2013-07-15T15:25:17.287951 #42556]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:25:20.369726 #42577]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:25:44.710543 #42577]  INFO -- : Message received from SQS
+E, [2013-07-15T15:25:44.710746 #42577] ERROR -- : Error: can't convert Symbol into Integer
+I, [2013-07-15T15:26:07.510801 #42577]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:26:10.162304 #42600]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:26:15.930415 #42600]  INFO -- : Message received from SQS
+E, [2013-07-15T15:26:15.930574 #42600] ERROR -- : Error: can't convert Symbol into Integer
+I, [2013-07-15T15:26:46.867102 #42600]  INFO -- : Message received from SQS
+E, [2013-07-15T15:26:46.867259 #42600] ERROR -- : Error: can't convert Symbol into Integer
+I, [2013-07-15T15:27:16.467547 #42600]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:27:20.959266 #42636]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:27:21.054806 #42636]  INFO -- : Message received from SQS
+E, [2013-07-15T15:27:21.055106 #42636] ERROR -- : Error: can't convert Symbol into Integer
+I, [2013-07-15T15:27:25.449002 #42636]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:29:41.776275 #42681]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:29:43.081424 #42681]  INFO -- : Message received from SQS
+E, [2013-07-15T15:29:43.083074 #42681] ERROR -- : Error: undefined class/module Message
+I, [2013-07-15T15:30:13.630146 #42681]  INFO -- : Message received from SQS
+E, [2013-07-15T15:30:13.631472 #42681] ERROR -- : Error: undefined class/module Message
+I, [2013-07-15T15:30:23.804368 #42681]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:30:26.055630 #42695]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:30:44.587843 #42695]  INFO -- : Message received from SQS
+I, [2013-07-15T15:30:44.590135 #42695]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:30:45.082731 #42695]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:30:45.082819 #42695]  INFO -- : Checking S3 for existing base image: article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+E, [2013-07-15T15:30:45.225492 #42695] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:30:45.304560 #42695]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:31:25.480657 #42695]  INFO -- : Message received from SQS
+I, [2013-07-15T15:31:25.482455 #42695]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:31:25.483138 #42695]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:31:25.483207 #42695]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:31:25.562773 #42695]  INFO -- : Existing base image found
+I, [2013-07-15T15:31:25.626069 #42695]  INFO -- : Creating new image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a__vice_643x363.jpg
+I, [2013-07-15T15:31:25.626185 #42695]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:31:25.831556 #42695]  INFO -- : ImageMagicking
+E, [2013-07-15T15:31:25.858586 #42695] ERROR -- : Error: undefined method `/' for "643":String
+I, [2013-07-15T15:31:41.739102 #42695]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:31:43.805527 #42742]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:31:56.459934 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:31:56.462073 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:31:56.864154 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:31:56.864239 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:31:56.998653 #42742]  INFO -- : Existing base image found
+I, [2013-07-15T15:31:57.026065 #42742]  INFO -- : Creating new image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a__vice_643x363.jpg
+I, [2013-07-15T15:31:57.026142 #42742]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:31:57.267666 #42742]  INFO -- : ImageMagicking
+I, [2013-07-15T15:31:57.323656 #42742]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:31:57.428053 #42742]  INFO -- : Deleting local files
+I, [2013-07-15T15:31:57.428317 #42742]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:31:57.455530 #42742]  INFO -- : All good
+I, [2013-07-15T15:31:57.535289 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:33:12.653946 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:33:12.655661 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:33:12.656300 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:33:12.656351 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+
+E, [2013-07-15T15:33:12.741407 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:33:12.815909 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:33:13.890354 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:33:13.892201 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:33:13.892849 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:33:13.892899 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/ 2012-a-year-in-hip-hop/737d2066169b0ff418b077487979830b.jpg
+
+E, [2013-07-15T15:33:13.930972 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:33:14.044382 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:33:15.166421 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:33:15.168221 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:33:15.169009 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:33:15.169067 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7.jpg
+
+E, [2013-07-15T15:33:15.193092 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:33:15.277317 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:33:16.351079 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:33:16.352764 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:33:16.353416 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:33:16.353466 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/"mobutu-#1"/93dda9516aa66e5cbead56aa96ebcc7d.jpg
+
+E, [2013-07-15T15:33:16.393961 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:33:16.519361 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:33:17.596048 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:33:17.597823 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:33:17.598511 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:33:17.598568 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb.jpg
+
+E, [2013-07-15T15:33:17.638903 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:33:17.712233 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:33:18.801362 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:33:18.803062 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:33:18.803811 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:33:18.803860 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28.jpg
+I, [2013-07-15T15:33:19.771174 #42742]  INFO -- : Existing base image found
+I, [2013-07-15T15:33:19.798396 #42742]  INFO -- : Creating new image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28__vice_643x363.jpg
+I, [2013-07-15T15:33:19.798506 #42742]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:33:20.262745 #42742]  INFO -- : ImageMagicking
+I, [2013-07-15T15:33:20.336945 #42742]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:33:20.700727 #42742]  INFO -- : Deleting local files
+I, [2013-07-15T15:33:20.700983 #42742]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:33:20.725597 #42742]  INFO -- : All good
+I, [2013-07-15T15:33:20.797865 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:33:21.924344 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:33:21.925901 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:33:21.926525 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:33:21.926575 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8.jpg
+
+E, [2013-07-15T15:33:21.950889 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:33:22.064626 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:33:23.142246 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:33:23.143437 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:33:23.143907 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:33:23.143943 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe.jpg
+
+E, [2013-07-15T15:33:23.167314 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:33:23.243465 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:37:52.893250 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:37:52.897434 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:37:52.900458 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:37:52.900520 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:37:53.348901 #42742]  INFO -- : Existing base image found
+I, [2013-07-15T15:37:53.390430 #42742]  INFO -- : New image size already exists
+I, [2013-07-15T15:37:53.474605 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:38:07.402698 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:38:07.404471 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:38:07.405450 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:38:07.405501 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+
+E, [2013-07-15T15:38:07.844659 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:38:07.963506 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:38:09.128380 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:38:09.130065 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:38:09.130686 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:38:09.130736 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/ 2012-a-year-in-hip-hop/737d2066169b0ff418b077487979830b.jpg
+E, [2013-07-15T15:38:09.748645 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:38:09.828977 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:39:15.237013 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:39:15.238569 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:39:15.239211 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:39:15.239259 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:39:15.651343 #42742]  INFO -- : Existing base image found
+I, [2013-07-15T15:39:15.676270 #42742]  INFO -- : New image size already exists
+I, [2013-07-15T15:39:15.748751 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:39:17.836909 #42742]  INFO -- : Message received from SQS
+I, [2013-07-15T15:39:17.838528 #42742]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:39:17.839176 #42742]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:39:17.839225 #42742]  INFO -- : Checking S3 for existing base image: content-images/article/ 2012-a-year-in-hip-hop/737d2066169b0ff418b077487979830b.jpg
+E, [2013-07-15T15:39:17.869507 #42742] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:39:17.942996 #42742]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:40:14.668222 #42742]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:40:17.279941 #42859]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:40:56.624103 #42859]  INFO -- : Message received from SQS
+I, [2013-07-15T15:40:56.626058 #42859]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:40:57.019304 #42859]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:40:57.019380 #42859]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:40:57.536684 #42859]  INFO -- : Existing base image found
+I, [2013-07-15T15:40:57.564133 #42859]  INFO -- : New image size already exists
+I, [2013-07-15T15:40:57.668794 #42859]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:40:57.668900 #42859]  INFO -- : ------
+I, [2013-07-15T15:40:58.758549 #42859]  INFO -- : Message received from SQS
+I, [2013-07-15T15:40:58.759794 #42859]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:40:58.760330 #42859]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:40:58.760365 #42859]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:40:58.760743 #42859] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:40:58.760778 #42859]  INFO -- : ------
+I, [2013-07-15T15:41:16.883501 #42859]  INFO -- : Message received from SQS
+I, [2013-07-15T15:41:16.884713 #42859]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:41:16.885273 #42859]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:41:16.885308 #42859]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:41:16.988342 #42859]  INFO -- : Existing base image found
+I, [2013-07-15T15:41:17.007771 #42859]  INFO -- : New image size already exists
+I, [2013-07-15T15:41:17.079523 #42859]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:41:17.079628 #42859]  INFO -- : ------
+I, [2013-07-15T15:41:19.178938 #42859]  INFO -- : Message received from SQS
+I, [2013-07-15T15:41:19.180471 #42859]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:41:19.181132 #42859]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:41:19.181182 #42859]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:41:19.181671 #42859] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:41:19.181719 #42859]  INFO -- : ------
+I, [2013-07-15T15:41:29.608614 #42859]  INFO -- : Message received from SQS
+I, [2013-07-15T15:41:29.610088 #42859]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:41:29.610702 #42859]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:41:29.610752 #42859]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:41:29.611216 #42859] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:41:29.611262 #42859]  INFO -- : ------
+I, [2013-07-15T15:41:49.937867 #42859]  INFO -- : Message received from SQS
+I, [2013-07-15T15:41:49.939384 #42859]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:41:49.940010 #42859]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:41:49.940060 #42859]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:41:49.940531 #42859] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:41:49.940581 #42859]  INFO -- : ------
+I, [2013-07-15T15:42:00.302167 #42859]  INFO -- : Message received from SQS
+I, [2013-07-15T15:42:00.303746 #42859]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:42:00.304386 #42859]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:42:00.304436 #42859]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:42:00.304910 #42859] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:42:00.304959 #42859]  INFO -- : ------
+I, [2013-07-15T15:42:20.924684 #42859]  INFO -- : Message received from SQS
+I, [2013-07-15T15:42:20.926255 #42859]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:42:20.926890 #42859]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:42:20.926940 #42859]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:42:20.927411 #42859] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:42:20.927467 #42859]  INFO -- : ------
+I, [2013-07-15T15:42:28.036884 #42859]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:42:30.822529 #42901]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:42:33.098163 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:42:33.100262 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:42:33.472704 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:42:33.472787 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:42:33.504587 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:42:33.504671 #42901]  INFO -- : ------
+I, [2013-07-15T15:42:52.885438 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:42:52.886512 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:42:52.887012 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:42:52.887048 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:42:52.887372 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:42:52.887405 #42901]  INFO -- : ------
+I, [2013-07-15T15:43:04.062337 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:43:04.063771 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:43:04.064249 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:43:04.064297 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:43:04.064763 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:43:04.064808 #42901]  INFO -- : ------
+I, [2013-07-15T15:43:05.153075 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:43:05.154466 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:43:05.154943 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:43:05.154990 #42901]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:43:05.270446 #42901]  INFO -- : Existing base image found
+I, [2013-07-15T15:43:05.297377 #42901]  INFO -- : New image size already exists
+I, [2013-07-15T15:43:05.376158 #42901]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:43:05.376260 #42901]  INFO -- : ------
+I, [2013-07-15T15:43:06.477228 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:43:06.478784 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:43:06.479377 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:43:06.479425 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:43:06.479826 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:43:06.479870 #42901]  INFO -- : ------
+I, [2013-07-15T15:43:23.496791 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:43:23.498196 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:43:23.498677 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:43:23.498725 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:43:23.499154 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:43:23.499199 #42901]  INFO -- : ------
+I, [2013-07-15T15:43:34.198503 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:43:34.199637 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:43:34.200099 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:43:34.200153 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:43:34.200501 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:43:34.200534 #42901]  INFO -- : ------
+I, [2013-07-15T15:43:37.645069 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:43:37.646400 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:43:37.647082 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:43:37.647132 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:43:37.647559 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:43:37.647606 #42901]  INFO -- : ------
+I, [2013-07-15T15:43:53.735367 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:43:53.736820 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:43:53.737299 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:43:53.737348 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:43:53.737760 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:43:53.737806 #42901]  INFO -- : ------
+I, [2013-07-15T15:44:04.317375 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:44:04.318778 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:44:04.319246 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:44:04.319294 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:44:04.319759 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:44:04.319805 #42901]  INFO -- : ------
+I, [2013-07-15T15:44:08.806591 #42901]  INFO -- : Message received from SQS
+I, [2013-07-15T15:44:08.807681 #42901]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:44:08.808107 #42901]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:44:08.808140 #42901]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:44:08.808514 #42901] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:44:08.808547 #42901]  INFO -- : ------
+I, [2013-07-15T15:44:14.304553 #42901]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:44:17.697993 #42954]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:44:24.982848 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:44:24.984511 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:44:25.369376 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:44:25.369457 #42954]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:44:25.401220 #42954] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:44:25.401305 #42954]  INFO -- : ------
+I, [2013-07-15T15:44:28.728746 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:44:28.729952 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:44:28.730494 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:44:28.730531 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/ 2012-a-year-in-hip-hop/737d2066169b0ff418b077487979830b.jpg
+E, [2013-07-15T15:44:28.829310 #42954] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:44:28.907800 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:44:28.907882 #42954]  INFO -- : ------
+I, [2013-07-15T15:44:29.998381 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:44:29.999844 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:44:30.000445 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:44:30.000497 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:44:30.391452 #42954]  INFO -- : Existing base image found
+I, [2013-07-15T15:44:30.502927 #42954]  INFO -- : New image size already exists
+I, [2013-07-15T15:44:30.608073 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:44:30.608172 #42954]  INFO -- : ------
+I, [2013-07-15T15:44:36.296676 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:44:36.298153 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:44:36.298825 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:44:36.298876 #42954]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:44:36.299305 #42954] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:44:36.299350 #42954]  INFO -- : ------
+I, [2013-07-15T15:44:39.689916 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:44:39.691037 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:44:39.691414 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:44:39.691455 #42954]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:44:39.691866 #42954] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:44:39.691903 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:06.863499 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:06.865025 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:06.865619 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:06.865676 #42954]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:45:06.866157 #42954] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:45:06.866211 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:10.202487 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:10.203942 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:10.204432 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:10.204481 #42954]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:45:10.204922 #42954] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:45:10.204967 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:32.932593 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:32.933889 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:32.934381 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:32.934421 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:45:33.372402 #42954]  INFO -- : Existing base image found
+I, [2013-07-15T15:45:33.393087 #42954]  INFO -- : New image size already exists
+I, [2013-07-15T15:45:33.466382 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:45:33.466476 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:35.211255 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:35.212728 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:35.213307 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:35.213358 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe.jpg
+I, [2013-07-15T15:45:35.621232 #42954]  INFO -- : Existing base image found
+I, [2013-07-15T15:45:35.684927 #42954]  INFO -- : Creating new image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe__vice_643x363.jpg
+I, [2013-07-15T15:45:35.685011 #42954]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:45:36.198400 #42954]  INFO -- : ImageMagicking
+I, [2013-07-15T15:45:36.263431 #42954]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:45:36.457002 #42954]  INFO -- : Deleting local files
+I, [2013-07-15T15:45:36.457296 #42954]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:45:36.478097 #42954]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:45:36.556704 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:45:36.556815 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:37.632239 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:37.633319 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:37.633758 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:37.633795 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28.jpg
+I, [2013-07-15T15:45:38.046019 #42954]  INFO -- : Existing base image found
+I, [2013-07-15T15:45:38.067543 #42954]  INFO -- : New image size already exists
+I, [2013-07-15T15:45:38.141760 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:45:38.141866 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:39.230134 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:39.231536 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:39.232107 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:39.232157 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/"mobutu-#1"/93dda9516aa66e5cbead56aa96ebcc7d.jpg
+E, [2013-07-15T15:45:39.624151 #42954] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:45:39.702465 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:45:39.702557 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:40.784308 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:40.785692 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:40.786485 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:40.786534 #42954]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:45:40.786972 #42954] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:45:40.787017 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:41.864242 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:41.865677 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:41.866159 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:41.866209 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7.jpg
+I, [2013-07-15T15:45:42.258030 #42954]  INFO -- : Existing base image found
+I, [2013-07-15T15:45:42.306262 #42954]  INFO -- : Creating new image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7__vice_643x363.jpg
+I, [2013-07-15T15:45:42.306364 #42954]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:45:42.396305 #42954]  INFO -- : ImageMagicking
+I, [2013-07-15T15:45:42.444206 #42954]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:45:42.518030 #42954]  INFO -- : Deleting local files
+I, [2013-07-15T15:45:42.518206 #42954]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:45:42.542150 #42954]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:45:42.614903 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:45:42.615009 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:43.693649 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:43.695108 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:43.695691 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:43.695742 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/ 2012-a-year-in-hip-hop/737d2066169b0ff418b077487979830b.jpg
+E, [2013-07-15T15:45:44.086790 #42954] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:45:44.202053 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:45:44.202154 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:45.283773 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:45.285290 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:45.285900 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:45.285951 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb.jpg
+I, [2013-07-15T15:45:46.078549 #42954]  INFO -- : Existing base image found
+I, [2013-07-15T15:45:46.112212 #42954]  INFO -- : Creating new image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb__vice_643x363.jpg
+I, [2013-07-15T15:45:46.112305 #42954]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:45:46.707142 #42954]  INFO -- : ImageMagicking
+I, [2013-07-15T15:45:46.779225 #42954]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:45:46.977383 #42954]  INFO -- : Deleting local files
+I, [2013-07-15T15:45:46.977666 #42954]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:45:47.009414 #42954]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:45:47.086340 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:45:47.086440 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:48.174684 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:48.176096 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:48.176657 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:48.176708 #42954]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8.jpg
+I, [2013-07-15T15:45:48.614519 #42954]  INFO -- : Existing base image found
+I, [2013-07-15T15:45:48.650480 #42954]  INFO -- : Creating new image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8__vice_643x363.jpg
+I, [2013-07-15T15:45:48.650566 #42954]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:45:48.741349 #42954]  INFO -- : ImageMagicking
+I, [2013-07-15T15:45:48.783609 #42954]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:45:48.863001 #42954]  INFO -- : Deleting local files
+I, [2013-07-15T15:45:48.863246 #42954]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:45:48.893786 #42954]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:45:48.960181 #42954]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:45:48.960262 #42954]  INFO -- : ------
+I, [2013-07-15T15:45:51.183096 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:45:51.184614 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:45:51.185214 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:45:51.185265 #42954]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:45:51.185646 #42954] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:45:51.185692 #42954]  INFO -- : ------
+I, [2013-07-15T15:46:11.772792 #42954]  INFO -- : Message received from SQS
+I, [2013-07-15T15:46:11.773860 #42954]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:46:11.774312 #42954]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:46:11.774348 #42954]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:46:11.774692 #42954] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:46:11.774726 #42954]  INFO -- : ------
+I, [2013-07-15T15:46:21.868331 #42954]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:46:39.508142 #42987]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:46:42.325831 #42987]  INFO -- : Message received from SQS
+I, [2013-07-15T15:46:42.327819 #42987]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:46:42.730675 #42987]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:46:42.730772 #42987]  INFO -- : Checking S3 for existing base image: 
+E, [2013-07-15T15:46:42.750915 #42987] ERROR -- : Error: key may not be blank
+I, [2013-07-15T15:46:42.750998 #42987]  INFO -- : ------
+I, [2013-07-15T15:46:47.144469 #42987]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:50:39.074526 #43015]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:52:13.143309 #43015]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:52:15.486199 #43041]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:52:20.126286 #43041]  INFO -- : Message received from SQS
+I, [2013-07-15T15:52:20.128145 #43041]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:52:20.517014 #43041]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:52:20.517095 #43041]  INFO -- : Checking S3 for existing base image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7.jpg
+I, [2013-07-15T15:52:20.655097 #43041]  INFO -- : Existing base image found
+I, [2013-07-15T15:52:20.655199 #43041]  INFO -- : Checking S3 for new image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7__vice_643x363.jpg
+I, [2013-07-15T15:52:20.676960 #43041]  INFO -- : New image size already exists
+I, [2013-07-15T15:52:20.751373 #43041]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:52:20.751504 #43041]  INFO -- : ------
+I, [2013-07-15T15:52:21.832856 #43041]  INFO -- : Message received from SQS
+I, [2013-07-15T15:52:21.834216 #43041]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:52:21.834785 #43041]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:52:21.834835 #43041]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:52:21.873374 #43041]  INFO -- : Existing base image found
+I, [2013-07-15T15:52:21.873454 #43041]  INFO -- : Checking S3 for new image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a__vice_643x363.jpg
+I, [2013-07-15T15:52:21.893882 #43041]  INFO -- : New image size already exists
+I, [2013-07-15T15:52:21.979594 #43041]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:52:21.979683 #43041]  INFO -- : ------
+I, [2013-07-15T15:52:23.063789 #43041]  INFO -- : Message received from SQS
+I, [2013-07-15T15:52:23.065263 #43041]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:52:23.065807 #43041]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:52:23.065855 #43041]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb.jpg
+I, [2013-07-15T15:52:23.103548 #43041]  INFO -- : Existing base image found
+I, [2013-07-15T15:52:23.103629 #43041]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb__vice_643x363.jpg
+I, [2013-07-15T15:52:23.140301 #43041]  INFO -- : New image size already exists
+I, [2013-07-15T15:52:23.213158 #43041]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:52:23.213273 #43041]  INFO -- : ------
+I, [2013-07-15T15:52:24.293874 #43041]  INFO -- : Message received from SQS
+I, [2013-07-15T15:52:24.295361 #43041]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:52:24.295905 #43041]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:52:24.295952 #43041]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8.jpg
+I, [2013-07-15T15:52:24.329220 #43041]  INFO -- : Existing base image found
+I, [2013-07-15T15:52:24.329308 #43041]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8__vice_643x363.jpg
+I, [2013-07-15T15:52:24.365327 #43041]  INFO -- : New image size already exists
+I, [2013-07-15T15:52:24.448559 #43041]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:52:24.448666 #43041]  INFO -- : ------
+I, [2013-07-15T15:52:25.526552 #43041]  INFO -- : Message received from SQS
+I, [2013-07-15T15:52:25.528030 #43041]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:52:25.528579 #43041]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:52:25.528628 #43041]  INFO -- : Checking S3 for existing base image: content-images/article/ 2012-a-year-in-hip-hop/737d2066169b0ff418b077487979830b.jpg
+E, [2013-07-15T15:52:25.548155 #43041] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:52:25.620812 #43041]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:52:25.620901 #43041]  INFO -- : ------
+I, [2013-07-15T15:52:26.743183 #43041]  INFO -- : Message received from SQS
+I, [2013-07-15T15:52:26.744656 #43041]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:52:26.745202 #43041]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:52:26.745252 #43041]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe.jpg
+I, [2013-07-15T15:52:26.765013 #43041]  INFO -- : Existing base image found
+I, [2013-07-15T15:52:26.765112 #43041]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe__vice_643x363.jpg
+I, [2013-07-15T15:52:26.787927 #43041]  INFO -- : New image size already exists
+I, [2013-07-15T15:52:26.864470 #43041]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:52:26.864575 #43041]  INFO -- : ------
+I, [2013-07-15T15:52:27.946754 #43041]  INFO -- : Message received from SQS
+I, [2013-07-15T15:52:27.947876 #43041]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:52:27.989169 #43041]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:52:27.989253 #43041]  INFO -- : Checking S3 for existing base image: content-images/article/"mobutu-#1"/93dda9516aa66e5cbead56aa96ebcc7d.jpg
+E, [2013-07-15T15:52:28.013756 #43041] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:52:28.100151 #43041]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:52:28.100252 #43041]  INFO -- : ------
+I, [2013-07-15T15:52:29.273263 #43041]  INFO -- : Message received from SQS
+I, [2013-07-15T15:52:29.274682 #43041]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:52:29.275202 #43041]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:52:29.275250 #43041]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28.jpg
+I, [2013-07-15T15:52:29.308411 #43041]  INFO -- : Existing base image found
+I, [2013-07-15T15:52:29.308509 #43041]  INFO -- : Checking S3 for new image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28__vice_643x363.jpg
+I, [2013-07-15T15:52:29.329291 #43041]  INFO -- : New image size already exists
+I, [2013-07-15T15:52:29.433376 #43041]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:52:29.433482 #43041]  INFO -- : ------
+I, [2013-07-15T15:53:12.278955 #43041]  INFO -- : Shapeshifter process stopped gracefully
+I, [2013-07-15T15:53:15.073256 #43076]  INFO -- : Shapeshifter process started
+I, [2013-07-15T15:53:18.899475 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:53:18.901062 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:53:19.306389 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:53:19.306467 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/ 2012-a-year-in-hip-hop/737d2066169b0ff418b077487979830b.jpg
+E, [2013-07-15T15:53:19.773164 #43076] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:53:19.848508 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:53:19.848601 #43076]  INFO -- : ------
+I, [2013-07-15T15:53:21.930476 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:53:21.931955 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:53:21.932573 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:53:21.932624 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7.jpg
+I, [2013-07-15T15:53:22.333593 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:53:22.333696 #43076]  INFO -- : Checking S3 for new image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7_vice_643x363.jpg
+I, [2013-07-15T15:53:22.366761 #43076]  INFO -- : Creating new image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7_vice_643x363.jpg
+I, [2013-07-15T15:53:22.366850 #43076]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:53:22.456209 #43076]  INFO -- : ImageMagicking
+I, [2013-07-15T15:53:22.503866 #43076]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:53:22.550977 #43076]  INFO -- : Deleting local files
+I, [2013-07-15T15:53:22.551244 #43076]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:53:22.572170 #43076]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:53:22.655211 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:53:22.655315 #43076]  INFO -- : ------
+I, [2013-07-15T15:53:23.738101 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:53:23.739589 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:53:23.740205 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:53:23.740256 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/"mobutu-#1"/93dda9516aa66e5cbead56aa96ebcc7d.jpg
+E, [2013-07-15T15:53:24.122263 #43076] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:53:24.198540 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:53:24.198626 #43076]  INFO -- : ------
+I, [2013-07-15T15:53:25.276214 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:53:25.277688 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:53:25.278300 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:53:25.278351 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:53:25.682090 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:53:25.682215 #43076]  INFO -- : Checking S3 for new image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a_vice_643x363.jpg
+I, [2013-07-15T15:53:25.716844 #43076]  INFO -- : Creating new image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a_vice_643x363.jpg
+I, [2013-07-15T15:53:25.716934 #43076]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:53:25.928907 #43076]  INFO -- : ImageMagicking
+I, [2013-07-15T15:53:25.978710 #43076]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:53:26.051879 #43076]  INFO -- : Deleting local files
+I, [2013-07-15T15:53:26.052101 #43076]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:53:26.071475 #43076]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:53:26.139923 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:53:26.140031 #43076]  INFO -- : ------
+I, [2013-07-15T15:53:27.218151 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:53:27.219621 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:53:27.220213 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:53:27.220264 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28.jpg
+I, [2013-07-15T15:53:27.650352 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:53:27.650465 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28_vice_643x363.jpg
+I, [2013-07-15T15:53:27.684130 #43076]  INFO -- : Creating new image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28_vice_643x363.jpg
+I, [2013-07-15T15:53:27.684226 #43076]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:53:27.927474 #43076]  INFO -- : ImageMagicking
+I, [2013-07-15T15:53:27.987344 #43076]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:53:28.200901 #43076]  INFO -- : Deleting local files
+I, [2013-07-15T15:53:28.201183 #43076]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:53:28.232229 #43076]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:53:28.302356 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:53:28.302464 #43076]  INFO -- : ------
+I, [2013-07-15T15:53:29.377168 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:53:29.378707 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:53:29.405396 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:53:29.405490 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe.jpg
+I, [2013-07-15T15:53:29.840962 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:53:29.841079 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe_vice_643x363.jpg
+I, [2013-07-15T15:53:29.872190 #43076]  INFO -- : Creating new image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe_vice_643x363.jpg
+I, [2013-07-15T15:53:29.872274 #43076]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:53:30.184006 #43076]  INFO -- : ImageMagicking
+I, [2013-07-15T15:53:30.246136 #43076]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:53:30.471651 #43076]  INFO -- : Deleting local files
+I, [2013-07-15T15:53:30.471935 #43076]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:53:30.501588 #43076]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:53:30.572075 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:53:30.572184 #43076]  INFO -- : ------
+I, [2013-07-15T15:53:31.652080 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:53:31.653536 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:53:31.674674 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:53:31.674774 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb.jpg
+I, [2013-07-15T15:53:32.104651 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:53:32.104760 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb_vice_643x363.jpg
+I, [2013-07-15T15:53:32.133797 #43076]  INFO -- : Creating new image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb_vice_643x363.jpg
+I, [2013-07-15T15:53:32.133897 #43076]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:53:33.041284 #43076]  INFO -- : ImageMagicking
+I, [2013-07-15T15:53:33.111179 #43076]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:53:33.308107 #43076]  INFO -- : Deleting local files
+I, [2013-07-15T15:53:33.308386 #43076]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:53:33.337680 #43076]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:53:33.413958 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:53:33.414061 #43076]  INFO -- : ------
+I, [2013-07-15T15:53:34.554664 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:53:34.556141 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:53:34.556731 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:53:34.556782 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8.jpg
+I, [2013-07-15T15:53:34.946966 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:53:34.947088 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8_vice_643x363.jpg
+I, [2013-07-15T15:53:34.990494 #43076]  INFO -- : Creating new image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8_vice_643x363.jpg
+I, [2013-07-15T15:53:34.990584 #43076]  INFO -- : Starting by downloading base image
+I, [2013-07-15T15:53:35.061335 #43076]  INFO -- : ImageMagicking
+I, [2013-07-15T15:53:35.102607 #43076]  INFO -- : Uploading new image to S3
+I, [2013-07-15T15:53:35.170378 #43076]  INFO -- : Deleting local files
+I, [2013-07-15T15:53:35.170570 #43076]  INFO -- : Confirming that image made it to S3
+I, [2013-07-15T15:53:35.192329 #43076]  INFO -- : Image successfully uploaded
+I, [2013-07-15T15:53:35.265041 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:53:35.265151 #43076]  INFO -- : ------
+I, [2013-07-15T15:54:20.428983 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:54:20.430494 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:54:20.431103 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:54:20.431153 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T15:54:20.521470 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:54:20.521582 #43076]  INFO -- : Checking S3 for new image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a_vice_643x363.jpg
+I, [2013-07-15T15:54:20.546336 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T15:54:20.694008 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:54:20.694116 #43076]  INFO -- : ------
+I, [2013-07-15T15:54:21.767694 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:54:21.768877 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:54:21.769360 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:54:21.769396 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe.jpg
+I, [2013-07-15T15:54:21.791640 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:54:21.791734 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe_vice_643x363.jpg
+I, [2013-07-15T15:54:21.815289 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T15:54:21.987711 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:54:21.987819 #43076]  INFO -- : ------
+I, [2013-07-15T15:54:23.071525 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:54:23.072962 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:54:23.073464 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:54:23.073514 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/"mobutu-#1"/93dda9516aa66e5cbead56aa96ebcc7d.jpg
+E, [2013-07-15T15:54:23.094250 #43076] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:54:23.173996 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:54:23.174096 #43076]  INFO -- : ------
+I, [2013-07-15T15:54:24.256388 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:54:24.257924 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:54:24.258469 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:54:24.258518 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/ 2012-a-year-in-hip-hop/737d2066169b0ff418b077487979830b.jpg
+E, [2013-07-15T15:54:24.280434 #43076] ERROR -- : Couldn't find original image
+I, [2013-07-15T15:54:24.353465 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:54:24.353564 #43076]  INFO -- : ------
+I, [2013-07-15T15:54:25.526309 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:54:25.527897 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:54:25.528393 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:54:25.528447 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8.jpg
+I, [2013-07-15T15:54:25.548850 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:54:25.548950 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8_vice_643x363.jpg
+I, [2013-07-15T15:54:25.569920 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T15:54:25.653426 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:54:25.653528 #43076]  INFO -- : ------
+I, [2013-07-15T15:54:26.741758 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:54:26.743380 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:54:26.744015 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:54:26.744066 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7.jpg
+I, [2013-07-15T15:54:26.772890 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:54:26.773021 #43076]  INFO -- : Checking S3 for new image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7_vice_643x363.jpg
+I, [2013-07-15T15:54:26.818420 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T15:54:26.885843 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:54:26.885991 #43076]  INFO -- : ------
+I, [2013-07-15T15:54:27.966472 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:54:27.967926 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:54:27.968508 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:54:27.968625 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28.jpg
+I, [2013-07-15T15:54:28.007933 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:54:28.008036 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28_vice_643x363.jpg
+I, [2013-07-15T15:54:28.030736 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T15:54:28.117130 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:54:28.119286 #43076]  INFO -- : ------
+I, [2013-07-15T15:54:29.194420 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T15:54:29.195815 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T15:54:29.196397 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T15:54:29.196447 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb.jpg
+I, [2013-07-15T15:54:29.218822 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T15:54:29.218944 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb_vice_643x363.jpg
+I, [2013-07-15T15:54:29.247189 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T15:54:29.444891 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T15:54:29.444990 #43076]  INFO -- : ------
+I, [2013-07-15T16:17:08.958464 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T16:17:08.959628 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T16:17:08.960164 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T16:17:08.960199 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/ 2012-a-year-in-hip-hop/737d2066169b0ff418b077487979830b.jpg
+E, [2013-07-15T16:17:09.400867 #43076] ERROR -- : Couldn't find original image
+I, [2013-07-15T16:17:09.482901 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T16:17:09.483006 #43076]  INFO -- : ------
+I, [2013-07-15T16:17:10.554214 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T16:17:10.555357 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T16:17:10.555836 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T16:17:10.555874 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28.jpg
+I, [2013-07-15T16:17:10.946365 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T16:17:10.946495 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%bfque-tienen-en-comun-beach-beach-y-rafa-nadal/4ffd21e81a2534e1907c6bbb04e47e28_vice_643x363.jpg
+I, [2013-07-15T16:17:10.968812 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T16:17:11.048417 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T16:17:11.048519 #43076]  INFO -- : ------
+I, [2013-07-15T16:17:12.126622 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T16:17:12.128135 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T16:17:12.128749 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T16:17:12.128801 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb.jpg
+I, [2013-07-15T16:17:12.515546 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T16:17:12.515668 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1las-barbies-de-manuel-bolano/b166d9e40f876fd9ad04ac3095cb59eb_vice_643x363.jpg
+I, [2013-07-15T16:17:12.537104 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T16:17:12.622241 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T16:17:12.622358 #43076]  INFO -- : ------
+I, [2013-07-15T16:17:13.695900 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T16:17:13.697371 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T16:17:13.697976 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T16:17:13.698048 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a.jpg
+I, [2013-07-15T16:17:14.102532 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T16:17:14.102658 #43076]  INFO -- : Checking S3 for new image: content-images/article/-bis-so-guet/570d7d99b41db58018bec6333e3bf64a_vice_643x363.jpg
+I, [2013-07-15T16:17:14.123120 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T16:17:14.202002 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T16:17:14.202105 #43076]  INFO -- : ------
+I, [2013-07-15T16:17:15.287151 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T16:17:15.288639 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T16:17:15.289230 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T16:17:15.289279 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/"mobutu-#1"/93dda9516aa66e5cbead56aa96ebcc7d.jpg
+E, [2013-07-15T16:17:15.733715 #43076] ERROR -- : Couldn't find original image
+I, [2013-07-15T16:17:15.813347 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T16:17:15.816140 #43076]  INFO -- : ------
+I, [2013-07-15T16:17:16.899183 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T16:17:16.900690 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T16:17:16.901345 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T16:17:16.901416 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7.jpg
+I, [2013-07-15T16:17:17.310540 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T16:17:17.310657 #43076]  INFO -- : Checking S3 for new image: content-images/article/ the-brutality-report-uncontrollable-shitting/0acb9a16279c88ea1cb03f03cae863e7_vice_643x363.jpg
+I, [2013-07-15T16:17:17.334668 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T16:17:17.437962 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T16:17:17.438093 #43076]  INFO -- : ------
+I, [2013-07-15T16:17:18.556855 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T16:17:18.558308 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T16:17:18.558895 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T16:17:18.558944 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe.jpg
+I, [2013-07-15T16:17:18.968502 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T16:17:18.968614 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1como-mola-la-primark-tia/e7256691baed8190358df2fe8d5706fe_vice_643x363.jpg
+I, [2013-07-15T16:17:18.987011 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T16:17:19.102779 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T16:17:19.102905 #43076]  INFO -- : ------
+I, [2013-07-15T16:17:20.186137 #43076]  INFO -- : Message received from SQS
+I, [2013-07-15T16:17:20.187278 #43076]  INFO -- : Creating S3 connection
+I, [2013-07-15T16:17:20.187766 #43076]  INFO -- : Bucket: vicecom-assets
+I, [2013-07-15T16:17:20.187803 #43076]  INFO -- : Checking S3 for existing base image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8.jpg
+I, [2013-07-15T16:17:20.723253 #43076]  INFO -- : Existing base image found
+I, [2013-07-15T16:17:20.723340 #43076]  INFO -- : Checking S3 for new image: content-images/article/%c2%a1guau-fanzines/7042fcbecdc7bb709b690d05af5946a8_vice_643x363.jpg
+I, [2013-07-15T16:17:20.742820 #43076]  INFO -- : New image size already exists
+I, [2013-07-15T16:17:20.817512 #43076]  INFO -- : Removed message from SQS
+I, [2013-07-15T16:17:20.817621 #43076]  INFO -- : ------
+I, [2013-07-15T16:17:33.151573 #43076]  INFO -- : Shapeshifter process stopped gracefully
