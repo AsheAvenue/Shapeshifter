@@ -39,7 +39,7 @@ Shapeshifter expects a YAML object called "Message" to be passed on an SQS messa
     height: the new image height
     size_key: the string to be added before the file extension of the new image
     
-Put each of those into a YAML structure and then pass them into the SQS queue. In the add_to_queue_.rb example we read in a list of images from a file called "image_list.txt," then loop through the images and create a message for each of them:
+Put each of those into a YAML structure and then pass them into the SQS queue. In the add_to_queue.rb example we read in a list of images from a file called "image_list.txt," then loop through the images and create a message for each of them:
 
     images.each do |image|
       message = Message.new(ACCOUNT, image, WIDTH, HEIGHT, SIZE_KEY)
