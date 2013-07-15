@@ -8,7 +8,7 @@ Setup
 
 After cloning, install the following gems:
 
-    $ sudo gem install fog aws-sdk rmagick --no-ri --no-rdoc
+    $ sudo gem install fog aws-sdk rmagick daemons --no-ri --no-rdoc
 
 Create a config.yml file in the Shapeshifter directory:
 
