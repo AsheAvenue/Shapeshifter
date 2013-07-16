@@ -13,9 +13,9 @@ config = YAML::load(File.open(File.join(File.dirname(__FILE__), "config.yml")))
 QUEUE_URL               = config['sqs_url']
 QUEUE_ACCESS_KEY_ID     = config['sqs_access_key_id']
 QUEUE_SECRET_ACCESS_KEY = config['sqs_secret_access_key']
-ACCOUNT                 = 'vice'
-WIDTH                   = 644
-HEIGHT                  = 364
+ACCOUNT                 = 'noisey'
+WIDTH                   = 200
+HEIGHT                  = 200
 SIZE_KEY                = "_vice_#{WIDTH}x#{HEIGHT}"
 
 # get the images
