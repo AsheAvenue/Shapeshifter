@@ -1,7 +1,7 @@
 Shapeshifter
 ============
 
-Shapeshifter is a distributed daemon for resizing mass numbers of images on S3. Its main use case is a scenario in which you have tens of thousands of source images that need to be resized. Launch the daemon on a dozen servers and your images will be resized quickly.
+Shapeshifter is a distributed daemon for resizing mass numbers of images on S3. Its main use case is a scenario in which you have tens of thousands of source images that need to be resized. Launch the daemon on a dozen servers, send the resize messages in via Amazon SQS, and your images will be resized quickly across all the listening daemons.
 
 Setup
 ============
